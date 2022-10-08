@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    
+}
+
+.shadow-my{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.13); 
+    box-shadow: 5px 4px 4px 5px rgba(0, 0, 0, 0.1);
+    }
+.my-radios{
+    -webkit-border-top-right-radius: 200px;
+-moz-border-radius-topright: 200px;
+border-top-right-radius: 200px;}
