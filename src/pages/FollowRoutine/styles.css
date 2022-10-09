@@ -1,0 +1,57 @@
+.header-follow-routine {
+  margin-top: 50px;
+}
+
+.banner {
+  margin-top: 50px;
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd
+}
+
+.header-card {}
+
+.card-routine {
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+  background-color: #fff;
+  border: 1px solid #DBDBDB;
+}
+
+.title-banner2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #0054A6;
+}
+
+.subtitle-banner {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+
+  color: #0054A6;
+}
+
+.new-routine {
+  padding: 10px 20px;
+  background: #0054A6;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+}
+
+.finished-routine {
+  padding: 10px 20px;
+  background: #0054A6;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+}
