@@ -33,7 +33,7 @@ export default function CardsInformations() {
             <p className='description-dados'>
               Veja sua programação detalhada
             </p>
-            <a className='edit-profile d-flex align-items-center'>
+            <a className='edit-profile d-flex align-items-center' href='/acompanhar-rotina'>
               FAÇA SEU ACOMPANHAMENTO
               <img src={ArrowRightBlue} className="ms-2" alt="" />
             </a>
@@ -46,9 +46,10 @@ export default function CardsInformations() {
               Fale com a Pamela
             </h4>
             <p className='description-dados-pamela'>
-              Tire suas dúvidas com a nossa Farmacêutica Clínica
+              Tire suas dúvidas com a nossa Farmacêutica Clínica.
+              Pensando em você desenvolvemos Pamela
             </p>
-            <a className='edit-profile d-flex align-items-center text-white'>
+            <a className='mt-4 edit-profile d-flex align-items-center text-white'>
               ENTRE EM CONTATO
               <img src={ArrowRightBlue} className="ms-2" alt="" />
             </a>

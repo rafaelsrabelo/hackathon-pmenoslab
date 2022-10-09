@@ -1,7 +1,9 @@
 import "./styles.css";
 import Header from "../../components/Header";
+import { useState } from "react";
 
 export function CreateRoutine() {
+  // const [continueUse, setContinueUse] = useState (false);
   return (
     <>
       <Header />
@@ -15,11 +17,11 @@ export function CreateRoutine() {
               />
             </div>
           </div>
-          
-          
+
+
           <div className="form-row">
-            
-            <div className="form-group col-md-4">
+
+            <div className="form-group col-md-2">
               <label for="inputState">Remedio</label>
               <select id="inputState" className="form-control">
                 <option selected>Selecione o remédio...</option>
@@ -40,23 +42,23 @@ export function CreateRoutine() {
                 <option>Quatro vezes</option>
               </select>
             </div>
-          <div className="form-check">
-            
-            <p>Esse medicamente é de uso contínuo?</p>
-            <input
-              className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
-            />
-            <label className="form-check-label" for="flexRadioDefault1">
-              Não
-            </label>
-          </div>
-          <div className="form-check">
-            <input
-              className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked
-            />
-            <label className="form-check-label" for="flexRadioDefault2">
-              Sim
-            </label>
+            <div className="form-check">
+
+              <p>Esse medicamente é de uso contínuo?</p>
+              <input
+                className="form-check-input" type="radio" value="no" name="flexRadioDefault" id="flexRadioDefault1"
+              />
+              <label className="form-check-label" for="flexRadioDefault1">
+                Não
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input" type="radio" value="yes" name="flexRadioDefault" id="flexRadioDefault2" false checked
+              />
+              <label className="form-check-label" for="flexRadioDefault2">
+                Sim
+              </label>
             </div>
             <div className="form-group col-md-4">
               <label for="inputState">Durante quanto tempo?</label>
@@ -72,6 +74,7 @@ export function CreateRoutine() {
                 <option>Outro... (especifique)</option>
               </select>
             </div>
+            <button type="button" class="btn btn-primary">Enviar</button>
           </div>
         </form>
       </div>

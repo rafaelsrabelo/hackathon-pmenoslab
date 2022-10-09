@@ -58,23 +58,23 @@ export function FollowRoutine() {
             <hr />
             <div className="footer-card">
               <div className="d-flex align-items-center">
-                <div className="d-block me-auto border p-3 rounded shadow-sm">
+                <div className="d-block me-auto p-3 rounded">
                   <div>Quantidade</div>
-                  <div>1 caixa</div>
+                  <strong>1 caixa</strong>
                 </div>
-                <div className="me-auto border p-3 rounded shadow-sm">
+                <div className="me-auto p-3 rounded">
                   <div>Término do tratamento</div>
-                  <div>1 caixa</div>
+                  <strong>1 caixa</strong>
                 </div>
-                <div className="d-block me-2 d-block me-auto border p-3 rounded shadow-sm">
+                <div className="d-block me-2 d-block me-auto p-3 rounded">
                   <div>Horário</div>
-                  <div>7:00 19:00</div>
+                  <strong>7:00 | 19:00</strong>
                 </div>
-                <div className="d-block me-auto border p-3 rounded shadow-sm">
+                <div className="d-block me-auto p-3 rounded">
                   <div>Quantidade</div>
-                  <div className="">5 caixas </div>
+                  <strong className="">5 caixas </strong>
                 </div>
-                <div className="d-flex flex-column text-center shadow-sm">
+                <div className="d-flex flex-column text-center">
                   <a href="" className="mb-2">Mostrar detalhes </a>
                   <button className="finished-routine">Finalizar rotinhas</button>
 
