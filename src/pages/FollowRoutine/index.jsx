@@ -34,10 +34,10 @@ export function FollowRoutine() {
       <div className="container">
         <div className="header-follow-routine d-flex">
           <span>
-            ROTINAS EM ANDAMENTO (1)
+            Rotinas em andamento (1)
           </span>
           <button className="ms-auto new-routine">
-            + NOVA ROTINA
+            + Nova rotina
           </button>
         </div>
       </div>
@@ -52,29 +52,33 @@ export function FollowRoutine() {
               <h4>DORFLEX</h4>
               <div className="form-check form-switch ms-auto">
                 <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
-                <label className="form-check-label" for="flexSwitchCheckChecked">DESATIVAR NOTIFICAÇÃO</label>
+                <label className="form-check-label" for="flexSwitchCheckChecked">Desativar notificação</label>
               </div>
             </div>
             <hr />
             <div className="footer-card">
               <div className="d-flex align-items-center">
-                <div className="d-block me-2">
-                  <p>QUANTIDADE</p>
-                  <p>1 caixa</p>
+                <div className="d-block me-auto border p-3 rounded shadow-sm">
+                  <div>Quantidade</div>
+                  <div>1 caixa</div>
                 </div>
-                <div className="d-block me-2">
-                  <p>QUANTIDADE</p>
-                  <p>1 caixa</p>
+                <div className="me-auto border p-3 rounded shadow-sm">
+                  <div>Término do tratamento</div>
+                  <div>1 caixa</div>
                 </div>
-                <div className="d-block me-2">
-                  <p>QUANTIDADE</p>
-                  <p>1 caixa</p>
+                <div className="d-block me-2 d-block me-auto border p-3 rounded shadow-sm">
+                  <div>Horário</div>
+                  <div>7:00 19:00</div>
                 </div>
-                <div className="d-block me-auto">
-                  <p>QUANTIDADE</p>
-                  <p>1 caixa</p>
+                <div className="d-block me-auto border p-3 rounded shadow-sm">
+                  <div>Quantidade</div>
+                  <div className="">5 caixas </div>
                 </div>
-                <button className="finished-routine">FINALIZAR ROTINA</button>
+                <div className="d-flex flex-column text-center shadow-sm">
+                  <a href="" className="mb-2">Mostrar detalhes </a>
+                  <button className="finished-routine">Finalizar rotinhas</button>
+
+                </div>
               </div>
             </div>
           </div>
