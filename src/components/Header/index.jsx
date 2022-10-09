@@ -14,7 +14,7 @@ export default function Header() {
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
                             <li className="nav-item">
                                 <a className="nav-link-text" aria-current="page" href="/">
-                                    <img src={Logo} className="me-5" alt="" />
+                                    <img src={Logo} className="me-5 d-none d-sm-block" alt="" />
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -34,7 +34,7 @@ export default function Header() {
                     </div>
                 </div>
             </nav>
-            <div className="alert text-center">
+            <div className="alertt text-center">
                 {/* EI MIGUEL EU VOU COMER O TEU ANEL */}
             </div>
         </>

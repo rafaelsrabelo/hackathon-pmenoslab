@@ -8,7 +8,7 @@ export default function CardsInformations() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-3">
+        <div className="col-md-3 col-xs-6">
           <div className="content-card d-block">
             <img src={InformationImg} alt="" />
             <h4 className='title-dados'>
@@ -24,7 +24,7 @@ export default function CardsInformations() {
             </a>
           </div>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 col-xs-6">
           <div className="content-card d-block">
             <img src={Check} alt="" />
             <h4 className='title-dados'>
@@ -39,7 +39,7 @@ export default function CardsInformations() {
             </a>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 col-xs-12">
           <div className="content-card d-block">
             <img src={Phone} alt="" />
             <h4 className='title-dados'>

@@ -10,9 +10,8 @@ export default function BannerRoutine() {
 
           <div className="col-md-6 col-xs-12 banner-component">
             <h2 className='title-banner m-2'>Monte sua rotina!</h2>
-            <p className='description-banner m-2'>A praticidade dos seus hábitos
-              saudáveis na palma da sua mão</p>
-            <button className='button-banner d-flex align-items-center m-2'>
+            <p className='description-banner m-2'>Crie agora sua Rotina SempreBem e comece a resgatar seus prêmios</p>
+            <button className='button-banner d-flex align-items-center mt-4'>
               Monte sua Rotina
               <img className='ms-2' src={ArrowRight} alt="" />
             </button>

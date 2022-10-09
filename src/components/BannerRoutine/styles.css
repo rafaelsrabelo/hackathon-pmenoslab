@@ -28,13 +28,13 @@
 }
 
 .button-banner {
-  margin-top: 20px;
+  margin-top: 50px;
   border: 0;
   padding: 6px 24px;
   background: #0054A6;
   color: #ffffff;
   border-radius: 6px;
-
+  font-size: 14px;
   transition: 0.8s;
 }
 
