@@ -1,0 +1,43 @@
+.banner-component {
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.title-banner {
+  margin-top: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+
+  color: #0054A6;
+}
+
+.description-banner {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #0054A6;
+  margin-top: 12px;
+}
+
+.button-banner {
+  margin-top: 20px;
+  border: 0;
+  padding: 6px 24px;
+  background: #0054A6;
+  color: #ffffff;
+  border-radius: 6px;
+
+  transition: 0.8s;
+}
+
+.button-banner:hover {
+  filter: brightness(0.8);
+}

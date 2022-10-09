@@ -1,0 +1,90 @@
+.content {
+  margin-top: 50px;
+}
+
+.card-content {
+  margin-left: 30px;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  /* margin-top: 40px; */
+  width: 350px;
+}
+
+.assinatura,
+.fidelidade {
+  padding: 30px 20px;
+  background: #0054A6;
+  color: #fff;
+  border-radius: 15px;
+  /* width: 450px; */
+  /* height: 182px; */
+
+
+  overflow: hidden;
+  position: relative;
+}
+
+/* .fidelidade {
+  padding: 30px 20px;
+  background: #0054A6;
+  color: #fff;
+  border-radius: 15px;
+  background-image: url('../../assets/img/assinatura.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+} */
+
+.assinatura small {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.fidelidade small {
+  font-size: 10px;
+}
+
+.assinatura h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.fidelidade h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.assinatura p {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.fidelidade p {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.assinatura:before,
+.fidelidade:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 182px;
+  border-radius: 15px;
+  z-index: 1;
+  opacity: 0.7;
+
+  background-image: url('../../assets/img/assinatura.png');
+
+
+
+
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
