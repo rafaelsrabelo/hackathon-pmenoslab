@@ -1,5 +1,6 @@
-import Header from "../../components/Header"
+import Header from "../../components/Header";
 import './styles.css';
+import Notificacao from '../../assets/img/notificacao.svg';
 
 export function FollowRoutine() {
   return (
@@ -11,7 +12,7 @@ export function FollowRoutine() {
 
         <div className="banner">
           <div className="container">
-            <div className="row">
+            <div className="row d-flex align-items-center">
               <div className="col-md-6">
 
                 <h2 className="title-banner2">
@@ -23,7 +24,7 @@ export function FollowRoutine() {
                 </p>
               </div>
               <div className="col-md-6">
-
+                <img src={Notificacao} className="img-fluid notificacao" alt="" />
               </div>
             </div>
           </div>
@@ -31,22 +32,25 @@ export function FollowRoutine() {
       </div>
 
       {/* CABECALHO PAGINA */}
-      <div className="container">
-        <div className="header-follow-routine d-flex">
+      {/* <div className="container">
+        <div className="header-follow-routine">
           <span>
             Rotinas em andamento (1)
           </span>
-          <button className="ms-auto new-routine">
+          <button className="new-routine">
             + Nova rotina
           </button>
         </div>
+      </div> */}
+      <div className="container">
+        <p className="text-end mt-5">Rotinas em andamento (1)</p>
       </div>
 
 
       {/* CARD DE REMEDIO */}
       <div className="container">
         <div className="row">
-          <div className="card-routine">
+          <div className="card-routine mb-5">
 
             <div className="header-card d-flex align-items-center">
               <h4>DORFLEX</h4>
@@ -74,11 +78,22 @@ export function FollowRoutine() {
                   <div>Quantidade</div>
                   <strong className="">5 caixas </strong>
                 </div>
-                <div className="d-flex flex-column text-center">
-                  <a href="" className="mb-2">Mostrar detalhes </a>
-                  <button className="finished-routine">Finalizar rotinhas</button>
+                {/* <div className="d-flex flex-column text-center">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingTwo">
+                      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Mostrar detalhes
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div className="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
 
-                </div>
+                </div> */}
+                {/* <button className="finished-routine">Finalizar rotinhas</button> */}
               </div>
             </div>
           </div>
@@ -89,3 +104,7 @@ export function FollowRoutine() {
 
   )
 }
+
+
+<script>
+</script>

@@ -10,8 +10,8 @@ export default function Recommendation() {
   return (
     <>
       <div className="header-title">
-        <div className="container">
-          <h3 className='py-3'>Oi Rafael, pensando nas dificuldades dessa epoca</h3>
+        <div className="container bg-blue-tittle rounded">
+          <h3 className='py-3 ms-4'>Oi Rafael, separamos essas recomendações pensando na sua rotina </h3>
         </div>
       </div>
 
@@ -33,14 +33,14 @@ export default function Recommendation() {
                     <h5 className='mt-5'>LuftaGastroPro Sachê Líquido - 12 Sachês de 10ml
                     </h5>
                     <p>R$ 28,25</p>
-                    <button>Saiba mais</button>
+                    <button className='btn-bg'>Saiba mais</button>
                   </div>
                   <div className="col-md-3">
                     <img src={Cewin} className="img-fluid" alt="" />
                     <h5 className='mt-5'>Cewin 1g Laranja Com 10 Comprimidos Efervescentes
                     </h5>
                     <p>R$ 12,95</p>
-                    <button>Saiba mais</button>
+                    <button className=''>Saiba mais</button>
                   </div>
                   <div className="col-md-3">
                     <img src={Promax} className="img-fluid" alt="" />

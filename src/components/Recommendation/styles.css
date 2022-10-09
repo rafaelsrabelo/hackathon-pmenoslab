@@ -1,5 +1,22 @@
 .header-title {
   margin: 50px 0;
-  background: #F1F1F1;
   color: #4F4F4F;
+  background-color: #f1f1f1;
+}
+
+.bg-blue-tittle {
+  color: #fff;
+}
+
+.bg-blue-tittle h3 {
+  font-size: 20px;
+
+}
+
+button {
+  background-color: #0054a6;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 7px;
+  color: #fff
 }

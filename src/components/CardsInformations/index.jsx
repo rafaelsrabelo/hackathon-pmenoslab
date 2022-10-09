@@ -43,13 +43,12 @@ export default function CardsInformations() {
           <div className="content-card-pamela d-block">
             <img src={Phone} alt="" />
             <h4 className='title-dados-pamela'>
-              Fale com a Pamela
+              Ligue para a Pamela
             </h4>
             <p className='description-dados-pamela'>
               Tire suas dúvidas com a nossa Farmacêutica Clínica.
-              Pensando em você desenvolvemos Pamela
             </p>
-            <a className='mt-4 edit-profile d-flex align-items-center text-white'>
+            <a className='edit-profile d-flex align-items-center text-white'>
               ENTRE EM CONTATO
               <img src={ArrowRightBlue} className="ms-2" alt="" />
             </a>

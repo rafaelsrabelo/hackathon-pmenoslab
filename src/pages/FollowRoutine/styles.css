@@ -1,13 +1,14 @@
 .header-follow-routine {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  display: flex;
 }
 
 .banner {
   margin-top: 50px;
-  background: #fff;
+  background: #0054A6;
   padding: 30px 20px;
   border-radius: 10px;
-  border: 1px solid #ddd
+  /* border: 1px solid #ddd */
 }
 
 .header-card {}
@@ -15,7 +16,7 @@
 .card-routine {
   padding: 30px;
   border-radius: 10px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   background-color: #fff;
   border: 1px solid #DBDBDB;
 }
@@ -27,7 +28,7 @@
   font-size: 24px;
   line-height: 28px;
 
-  color: #0054A6;
+  color: #fff;
 }
 
 .subtitle-banner {
@@ -36,8 +37,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
-
-  color: #0054A6;
+  margin-top: 10px;
+  color: #fff;
 }
 
 .new-routine {
@@ -54,4 +55,9 @@
   border-radius: 8px;
   border: 0;
   color: #fff;
+}
+
+.notificacao {
+  width: 100%;
+  height: 200px;
 }
