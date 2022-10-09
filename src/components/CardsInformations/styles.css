@@ -6,6 +6,37 @@
   box-shadow: 0px 4px 20px rgb(135 146 163 / 20%);
 }
 
+.content-card-pamela {
+  margin-top: 50px;
+  border-radius: 8px;
+  background: #21b55e;
+  color: #fff;
+  border: 1px solid #DDDDDD;
+  padding: 20px;
+  box-shadow: 0px 4px 20px rgb(135 146 163 / 20%);
+}
+
+.title-dados-pamela {
+  margin: 10px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #fff;
+}
+
+.description-dados-pamela {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #fff;
+}
+
 .title-dados {
   margin: 10px 0;
   font-style: normal;

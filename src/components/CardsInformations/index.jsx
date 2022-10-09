@@ -40,15 +40,15 @@ export default function CardsInformations() {
           </div>
         </div>
         <div className="col-md-4 col-xs-12">
-          <div className="content-card d-block">
+          <div className="content-card-pamela d-block">
             <img src={Phone} alt="" />
-            <h4 className='title-dados'>
+            <h4 className='title-dados-pamela'>
               Fale com a Pamela
             </h4>
-            <p className='description-dados'>
+            <p className='description-dados-pamela'>
               Tire suas dúvidas com a nossa Farmacêutica Clínica
             </p>
-            <a className='edit-profile d-flex align-items-center'>
+            <a className='edit-profile d-flex align-items-center text-white'>
               ENTRE EM CONTATO
               <img src={ArrowRightBlue} className="ms-2" alt="" />
             </a>
